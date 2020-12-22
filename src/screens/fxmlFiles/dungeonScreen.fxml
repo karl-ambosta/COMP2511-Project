@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="dungeonScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyReleased="#getKey" prefHeight="680.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="background" fitHeight="397.0" fitWidth="397.0" layoutX="73.0" layoutY="146.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/floor.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="206.0" layoutY="28.0" text="DUNGEON Level">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="27.0" layoutY="46.0" mnemonicParsing="false" onAction="#backtoLevels" text="Exit" />
+      <Label layoutX="44.0" layoutY="554.0" text="Controls:" textFill="RED">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="582.0" prefHeight="28.0" prefWidth="199.0" text="Arrow Keys - Move Player">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="610.0" prefHeight="28.0" prefWidth="199.0" text="Q - Skip Turn">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="610.0" prefHeight="28.0" prefWidth="141.0" text="F - Cycle Weapon">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="582.0" prefHeight="28.0" prefWidth="357.0" text="W/S/A/D - Use Weapon (Up/Down/Left/Right)">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="638.0" prefHeight="28.0" prefWidth="105.0" text="K - Drop Key">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="455.0" layoutY="610.0" prefHeight="28.0" prefWidth="141.0" text="J - Drop Sword ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="455.0" layoutY="638.0" prefHeight="28.0" prefWidth="161.0" text="L - Drop/Use Bomb">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TilePane layoutX="51.0" layoutY="125.0" prefHeight="430.0" prefWidth="445.0">
+         <children>
+            <GridPane fx:id="levelMap" prefHeight="422.0" prefWidth="440.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </children>
+      </TilePane>
+      <Label layoutX="501.0" layoutY="274.0" prefHeight="28.0" prefWidth="105.0" text="Inventory:" textFill="#0200ff">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="198.0" prefHeight="28.0" prefWidth="133.0" text="Weapon Equipped:" textFill="#0200ff">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="weaponText" layoutX="526.0" layoutY="226.0" prefHeight="28.0" prefWidth="218.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="302.0" prefHeight="28.0" prefWidth="63.0" text="Treasure:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="330.0" prefHeight="28.0" prefWidth="54.0" text="Sword:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="358.0" prefHeight="28.0" prefWidth="54.0" text="Arrows:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="516.0" layoutY="386.0" prefHeight="28.0" prefWidth="54.0" text="Bombs:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="414.0" prefHeight="28.0" prefWidth="91.0" text="HoverPotion:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="442.0" prefHeight="28.0" prefWidth="91.0" text="InvinciPotion:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="515.0" layoutY="470.0" prefHeight="28.0" prefWidth="35.0" text="Key:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="hoverPotion" layoutX="607.0" layoutY="414.0" prefHeight="28.0" prefWidth="54.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="invinciPotion" layoutX="607.0" layoutY="442.0" prefHeight="28.0" prefWidth="149.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="keyNumber" layoutX="554.0" layoutY="470.0" prefHeight="28.0" prefWidth="141.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="bombCount" layoutX="568.0" layoutY="386.0" prefHeight="28.0" prefWidth="54.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="arrowCount" layoutX="568.0" layoutY="358.0" prefHeight="28.0" prefWidth="54.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="treasureCount" layoutX="579.0" layoutY="302.0" prefHeight="28.0" prefWidth="54.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="swordText" layoutX="568.0" layoutY="330.0" prefHeight="28.0" prefWidth="184.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="endMessage" layoutX="502.0" layoutY="108.0" prefHeight="89.0" prefWidth="251.0" textFill="RED">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnCreator" layoutX="70.0" layoutY="46.0" mnemonicParsing="false" onAction="#returnCreator" text="Back to Creator" />
+      <Label fx:id="methodMessage" layoutX="162.0" layoutY="94.0" prefHeight="28.0" prefWidth="308.0" textFill="#fa00ff">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="94.0" prefHeight="28.0" prefWidth="82.0" text="Objective:">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="retryButton" layoutX="599.0" layoutY="47.0" mnemonicParsing="false" onAction="#handleReset" text="Retry Dungeon" />
+   </children>
+</Pane>

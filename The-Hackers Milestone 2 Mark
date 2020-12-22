@@ -1,0 +1,17 @@
+RE the teams marks:
+
+To confirm, you guys are team "THE HACKERS" And your total mark was 21/25.
+
+You guys got a 9/10 for correctness, a 5/5 for testing and a 7/10 for design. 
+
+Your performance mark loss was due to tiny bugs - Significant losses/unimplemented features went down to 7, 6 etc. This is a really good mark!
+ 
+As for your design - I believe a fair bit of this would come from the fact that everything is stored under the "Entity" class - It seems to me that this is really an interface with some constant fields, yet you have "Abstract" under the methods. It's better to either make this a real abstract class, or to remove the fields/abstract methods in it (and just make them real methods).
+
+Your UML also uses a mix of extends/implements when interacting with this interface - Although this is minor it can be confusing to whoever is trying to sus out your design. Especially if they read the interface code - Is it an abstract class or interface? Those two tools are used for two different situations, so it makes a difference as to which one you choose!
+
+This class also violates the SRP - It seems you have actions in it (canInteract(), interact()) which are designed to be used only for items, yet you have Enemies, characters, etc. using this interface... Either the Javadoc is ambiguous as to what these actions actually do, or the design of your interface makes it too strong to be implemented/inherited by everything.
+
+Making many things depend upon this interface makes it very rigid, and even a small change to it could upset every single class that is related to it in any way. It would be better to break it into many different pieces (i.e. smaller interface, one for Drawable, etc.) which would make your design a lot less dependent on one point of failure!
+
+I actually had your mark a little higher than what it was, however we had some global scaling applied so it went down by a bit. I think also the potential for 1-2 more patterns in your design was there, but that's a minor detail I wouldn't worry about...

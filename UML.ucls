@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="core.Dungeon" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/core/Dungeon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1536" y="1346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="core.Inventory" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/core/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2252" y="1864"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="core.LevelList" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/core/LevelList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="564" y="878"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="entities.Arrow" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Arrow.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2568" y="1934"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="entities.Bomb" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Bomb.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3360" y="1948"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="entities.Boulder" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Boulder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1842" y="734"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="7" language="java" name="entities.Character" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Character.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2752" y="1486"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="entities.Coward" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Coward.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3458" y="1142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="entities.KillEnemyPotion" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/KillEnemyPotion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1409" y="2013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="entities.Sword" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Sword.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2956" y="2057"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="entities.Wall" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Wall.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="150" width="169" x="2223" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="entities.Hunter" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Hunter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3782" y="1181"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="entities.Exit" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Exit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="150" width="169" x="2432" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="entities.Weapon" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Weapon.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3068" y="1697"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="entities.Hound" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Hound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3150" y="1039"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="entities.Enemy" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Enemy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3355" y="1433"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="entities.Player" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1892" y="1246"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="entities.Potion" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Potion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1792" y="1785"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="entities.Entity" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Entity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1571" y="410"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="entities.Pit" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Pit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="150" width="169" x="2863" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="entities.Switch" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Switch.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="150" width="169" x="3072" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="entities.InvincibilityPotion" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/InvincibilityPotion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1708" y="2083"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="23" language="java" name="entities.EntityState" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/EntityState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1612" y="709"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="24" language="java" name="entities.Door" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Door.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2119" y="784"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="entities.Treasure" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Treasure.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="150" width="169" x="3490" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="entities.HoverPotion" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/HoverPotion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2001" y="2078"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="entities.Key" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Key.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2509" y="1307"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="entities.Strategist" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/entities/Strategist.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3735" y="1595"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="screens.CreatorScreen" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/screens/CreatorScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="948" y="1197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="screens.DungeonScreen" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/screens/DungeonScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="305" y="472"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="screens.LevelScreen" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/screens/LevelScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="634" y="567"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="screens.MainMenuScreen" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/screens/MainMenuScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="929" y="553"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="controllers.DungeonScreenController" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/controllers/DungeonScreenController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="476" y="1468"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="controllers.MainMenuController" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/controllers/MainMenuController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="983" y="777"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="controllers.CreatorScreenController" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/controllers/CreatorScreenController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="147" y="1212"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="controllers.LevelScreenController" project="group-The-Hackers" 
+    file="/group-The-Hackers/src/controllers/LevelScreenController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1206" y="1046"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="37">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="38" name="equiped"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="40">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="41">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="42" name="onTile"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="44">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="45">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="46" name="player"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="49" name="dung"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="52" name="l"/>      
+      <multiplicity id="53" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="55" name="copyDung"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="57">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="58">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="59" name="levels"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="62" name="originalMap"/>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="65" name="keys"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="67">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="68">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="69" name="dung"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="71">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="73">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <realization id="74">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="75">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="76">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="77" name="doors"/>      
+      <multiplicity id="78" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="80" name="invincPotion"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="82">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="84">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="85">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="86" name="key"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="89" name="levels"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="91">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="92">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="93" name="l"/>      
+      <multiplicity id="94" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="96" name="maps"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="98">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <realization id="99">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="100">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="101">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="102" name="levels"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="105" name="bombs"/>      
+      <multiplicity id="106" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="108" name="inv"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="110">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <association id="111">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="112" name="dungeon"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="114">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <realization id="115">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="116">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="117" name="onTile"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="119">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <association id="120">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="121" name="l"/>      
+      <multiplicity id="122" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="124" name="sword"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="127" name="levels"/>      
+      <multiplicity id="128" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="130" name="Map"/>      
+      <multiplicity id="131" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="133" name="levels"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="136" name="Enemies"/>      
+      <multiplicity id="137" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="138">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="139">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="140">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="141">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <association id="142">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="143" name="dungeon"/>      
+      <multiplicity id="144" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="145">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </generalization>  
+  <realization id="146">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

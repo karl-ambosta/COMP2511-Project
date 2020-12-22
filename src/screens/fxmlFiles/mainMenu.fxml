@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="354.0" layoutY="404.0" text="Main Menu">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="388.0" layoutY="385.0" text="by The-Hackers">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="toGame" layoutX="315.0" layoutY="469.0" mnemonicParsing="false" onAction="#goToLevels" text="Play Game">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="toCreator" layoutX="463.0" layoutY="469.0" mnemonicParsing="false" onAction="#goToCreator" text="Level Creator">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="242.0" fitWidth="446.0" layoutX="215.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/gameLogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
